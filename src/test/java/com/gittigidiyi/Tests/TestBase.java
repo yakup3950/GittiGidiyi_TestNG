@@ -40,6 +40,7 @@ public class TestBase extends BasePage {
     public void searchItem() throws Exception {
 
         //SEARCH "BILGISAYAR" WORD FROM SEARCH ENGINE!..
+        Thread.sleep(5000);
         closeCookie.click();
         searchBar.sendKeys("Bilgisayar");
         searchButton.click();
